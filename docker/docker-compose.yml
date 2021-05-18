@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  miner:
+    image: epenguincom/xmrig:latest
+    environment:
+      - POOL_PASS=mint
+    restart: always
